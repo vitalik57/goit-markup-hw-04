@@ -433,5 +433,9 @@ header {
   padding-bottom: 94px;
 }
 .blake {
-  background-image: url(../goit-markup-hw-03/image/Img20.jpg);
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background-image: url("../goit-markup-hw-03/image/Img20.jpg");
 }
