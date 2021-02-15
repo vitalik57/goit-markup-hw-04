@@ -198,7 +198,7 @@ h3 {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  background-color: #2f303a;
+  /* background-color: #2f303a; */
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -356,7 +356,39 @@ footer {
   flex-wrap: wrap;
   align-items: center;
 }
-
+/* .step {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+} */
+.monky.detail::before {
+  background-image: url(./image/Vector.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.monky.organization::before {
+  background-image: url("./image/Vector1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.monky::before {
+  width: 270px;
+  height: 120px;
+  content: "";
+  background-color: #f5f4fa;
+  /* background-image: url(./image/Vector.jpg); */
+}
+.monky.problem::before {
+  background-image: url(./image/Vector3.jpg);
+}
+.monky.ubung::before {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url(./image/Vector2.jpg);
+}
 .tipe {
   font-weight: bold;
   line-height: 30px;
@@ -391,7 +423,7 @@ header {
 }
 
 .sanji {
-  /* background-image: url(../goit-markup-hw-03/image/Img20.jpg); */
+  /* background-image: url("./image/Img20.jpg"); */
   text-align: center;
 }
 .jjj {
@@ -418,7 +450,7 @@ header {
 }
 .plan {
   padding-top: 94px;
-  padding-bottom: 280px;
+  /* padding-bottom: 280px; */
 }
 .five {
   /* padding-top: 50px; */
@@ -434,8 +466,9 @@ header {
 }
 .blake {
   width: 1600px;
-  height: 600px;
+  /* height: 600px; */
   left: 0px;
   top: 80px;
-  background-image: url("../goit-markup-hw-03/image/Img20.jpg");
+  background-image: url("./image/Img20.jpg");
 }
+/* background-image: url("./image/Img20.jpg"); */
