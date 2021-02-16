@@ -618,13 +618,14 @@ li.number:hover {
   flex-wrap: wrap;
   width: 206px;
   height: 80px;
+  justify-content: center;
 }
 .comand {
   display: flex;
   flex-wrap: wrap;
 
   margin-top: 0px;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -656,4 +657,15 @@ li.number:hover {
   text-transform: uppercase;
 
   color: #ffffff;
+}
+.always {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.vector {
+  margin: 0%;
+}
+.client {
+  margin: 0%;
+  margin-bottom: 50px;
 }
