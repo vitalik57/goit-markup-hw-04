@@ -160,7 +160,7 @@ h3 {
 
 .flix {
   margin-top: 0px;
-  margin-bottom: 94px;
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -376,6 +376,9 @@ footer {
   margin-left: 32px;
   margin-right: 30px;
 }
+.icons:hover svg {
+  fill: red;
+}
 
 .instagram {
   width: 20px;
@@ -384,6 +387,7 @@ footer {
   display: flex;
   padding: 0;
   margin: 0;
+  color: red;
 }
 .linkedin {
   width: 20px;
@@ -417,10 +421,11 @@ footer {
   background-size: contain;
 }
 .monky.organization::before {
-  background-image: url("./image/Vector1.jpg");
+  background-image: url("./image/Vector8.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  background-size: 55px 60px;
 }
 .monky::before {
   width: 270px;
@@ -431,19 +436,23 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: url(./image/Vector.jpg);
+  background-image: url(./image/Vector7.svg);
+  background-size: 55px 60px;
+  margin-bottom: 30px;
 }
 .monky.problem::before {
-  background-image: url(./image/Vector3.jpg);
+  background-image: url(./image/Vector10.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  background-size: 55px 60px;
 }
 .monky.ubung::before {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: url(./image/Vector2.jpg);
+  background-image: url(./image/Vector9.svg);
+  background-size: 55px 60px;
 }
 .tipe {
   font-weight: bold;
