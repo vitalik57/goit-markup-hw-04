@@ -408,9 +408,7 @@ footer {
   padding: 0;
   margin: 0;
 }
-.comand {
-  fill: red;
-}
+
 .linkedin {
   width: 20px;
   height: 16px;
@@ -614,4 +612,48 @@ a.phone:hover {
 }
 li.number:hover {
   color: #2196f3;
+}
+.endet {
+  display: flex;
+  flex-wrap: wrap;
+  width: 206px;
+  height: 80px;
+}
+.comand {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 0px;
+  justify-content: space-evenly;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.comand-item {
+  width: 44px;
+  height: 44px;
+}
+.comand-link:hover {
+  background-color: #2196f3;
+}
+.comand-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  background: rgba(255, 255, 255, 0.1);
+}
+.comand-link svg {
+  fill: #ffffff;
+}
+.endetname {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
