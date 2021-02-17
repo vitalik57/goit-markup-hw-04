@@ -73,6 +73,9 @@ a {
 .link-teitle:hover {
   color: #2196f3;
 }
+.link-teitle:focus {
+  color: #2196f3;
+}
 .site {
   font-weight: 500;
   font-size: 14px;
@@ -119,6 +122,9 @@ h3 {
   align-items: center;
 }
 .web:hover {
+  color: #2196f3;
+}
+.web:focus {
   color: #2196f3;
 }
 .team {
@@ -381,10 +387,16 @@ footer {
 .items-link:hover svg {
   fill: white;
 }
+.items-link:focus svg {
+  fill: white;
+}
 .items-link svg {
   fill: #afb1b8;
 }
 .items-link:hover {
+  background-color: #2196f3;
+}
+.items-link:focus {
   background-color: #2196f3;
 }
 .items-link {
@@ -475,6 +487,7 @@ footer {
   background-size: 55px 60px;
 }
 .tipe {
+  color: #ffffff;
   font-weight: bold;
   line-height: 30px;
 
@@ -504,7 +517,7 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: #212121;
 }
 
 .sanji {
@@ -542,6 +555,7 @@ header {
   margin-bottom: 0px;
 }
 .work {
+  background: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -550,7 +564,7 @@ header {
   padding-bottom: 94px;
 }
 .blake {
-  width: 1600px;
+  max-width: 1600px;
   /* height: 600px; */
   left: 0px;
   top: 80px;
@@ -586,7 +600,13 @@ li {
 .vector:hover svg {
   fill: #2196f3;
 }
+.vector:focus svg {
+  fill: #2196f3;
+}
 .vector:hover {
+  border-color: #2196f3;
+}
+.vector:focus {
   border-color: #2196f3;
 }
 .client {
@@ -601,7 +621,19 @@ li {
 .web:hover svg {
   fill: #2196f3;
 }
-.a.com:hover {
+.web:focus svg {
+  fill: #2196f3;
+}
+.web:hover {
+  fill: #2196f3;
+}
+.web:focus {
+  fill: #2196f3;
+}
+.a.com:focus {
+  fill: #2196f3;
+}
+.a.com:focus {
   fill: #2196f3;
 }
 .a.com {
@@ -610,7 +642,13 @@ li {
 a.phone:hover {
   fill: #2196f3;
 }
+a.phone:focus {
+  fill: #2196f3;
+}
 li.number:hover {
+  color: #2196f3;
+}
+li.number:focus {
   color: #2196f3;
 }
 .endet {
@@ -631,10 +669,17 @@ li.number:hover {
   margin-right: 0px;
 }
 .comand-item {
+  margin-right: 10px;
   width: 44px;
   height: 44px;
 }
+.comand-item:last-child {
+  margin-right: 0px;
+}
 .comand-link:hover {
+  background-color: #2196f3;
+}
+.comand-link:focus {
   background-color: #2196f3;
 }
 .comand-link {
