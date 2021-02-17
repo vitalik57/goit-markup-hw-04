@@ -117,7 +117,7 @@ h3 {
   letter-spacing: 0.02em;
 
   margin-right: 50px;
-  margin-left: 279px;
+
   display: block;
   align-items: center;
 }
@@ -277,6 +277,7 @@ span {
   margin: 0;
   list-style: none;
   display: flex;
+  margin-left: auto;
 }
 .link-text:focus,
 .link-text:hover {
@@ -840,4 +841,7 @@ li.number:focus {
 .virus:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.web-studio {
+  margin-right: 10px;
 }
